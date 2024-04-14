@@ -4,7 +4,7 @@ function App() {
     console.log(res);
   };
   get();
-  return <div>welcome to frontend</div>;
+  return <div>Welcome to the frontend</div>;
 }
 
 export default App;
