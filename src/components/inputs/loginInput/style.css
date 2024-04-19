@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
 }
-
 .input_wrap input {
   outline: none;
   border: 1px solid var(--bg-third);
@@ -19,18 +18,15 @@
   margin-bottom: 10px;
   color: var(--color-primary);
 }
-
 .input_error_border {
   border-color: #b94a48 !important;
 }
-
 .input_wrap i {
   position: absolute;
   right: 5px;
   top: 15px;
   transform: scale(0.8);
 }
-
 .input_error {
   position: relative;
   padding: 15px 10px;
@@ -41,7 +37,6 @@
   border-radius: 5px;
   margin-bottom: 15px;
 }
-
 .error_arrow_top {
   position: absolute;
   border-top: 10px solid #b94a48;
@@ -49,7 +44,6 @@
   border-left: 10px solid transparent;
   bottom: -10px;
 }
-
 .error_arrow_bottom {
   position: absolute;
   border-bottom: 10px solid #b94a48;
