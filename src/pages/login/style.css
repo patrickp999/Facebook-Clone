@@ -61,9 +61,14 @@
 }
 /*------Media Queries-----*/
 @media (min-width: 850px) {
+  .login_wrapper {
+    display: flex;
+    justify-content: center;
+  }
   .login_wrap {
     display: flex;
     align-items: center;
+    justify-content: center;
     max-width: 1000px;
     padding: 0 1rem;
   }
